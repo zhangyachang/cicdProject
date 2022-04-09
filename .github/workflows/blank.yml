@@ -31,7 +31,7 @@ jobs:
       
       # 这里就是我自己写的那些命令了，看看这个东西会执行吗
       - name: Install & Build
-        run:
+        run: |
           yarn install
           yarn build
       
